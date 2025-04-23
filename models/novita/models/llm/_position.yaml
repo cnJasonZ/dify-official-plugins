@@ -1,3 +1,14 @@
+# Deepseek Models
+- deepseek/deepseek-v3-0324
+- deepseek/deepseek-v3-turbo
+- deepseek/deepseek-r1-turbo
+- deepseek/deepseek-r1-distill-llama-8b
+- deepseek/deepseek_v3
+- deepseek/deepseek-r1-distill-qwen-14b
+- deepseek/deepseek-r1-distill-qwen-32b
+- deepseek/deepseek-r1-distill-llama-70b
+- deepseek/deepseek-r1
+
 # Meta-Llama Models
 - meta-llama/llama-4-maverick-17b-128e-instruct-fp8
 - meta-llama/llama-4-scout-17b-16e-instruct
@@ -11,17 +22,6 @@
 - meta-llama/llama-3.2-3b-instruct
 - meta-llama/llama-3.1-8b-instruct-bf16
 
-# Deepseek Models
-- deepseek/deepseek-v3-0324
-- deepseek/deepseek-v3-turbo
-- deepseek/deepseek-r1-turbo
-- deepseek/deepseek-r1-distill-llama-8b
-- deepseek/deepseek_v3
-- deepseek/deepseek-r1-distill-qwen-14b
-- deepseek/deepseek-r1-distill-qwen-32b
-- deepseek/deepseek-r1-distill-llama-70b
-- deepseek/deepseek-r1
-
 # Qwen Models
 - qwen/qwen2.5-vl-72b-instruct
 - qwen/qwq-32b
@@ -31,9 +31,6 @@
 # Google Models
 - google/gemma-3-27b-it
 - google/gemma-2-9b-it
-
-# Sao10K Models
-- Sao10K/L3-8B-Stheno-v3.2
 
 # Gryphe Models
 - gryphe/mythomax-l2-13b
@@ -52,6 +49,7 @@
 - sao10k/l3-70b-euryale-v2.1
 - sao10k/l3-8b-lunaris
 - sao10k/l31-70b-euryale-v2.2
+- Sao10K/L3-8B-Stheno-v3.2
 
 # Cognitivecomputations Models
 - cognitivecomputations/dolphin-mixtral-8x22b

@@ -18,9 +18,9 @@ class NovitaProvider(ModelProvider):
         try:
             model_instance = self.get_model_instance(ModelType.LLM)
 
-            # Use `meta-llama/llama-3-8b-instruct` model for validate,
+            # Use `meta-llama/llama-3.1-8b-instruct` model for validate,
             # no matter what model you pass in, text completion model or chat model
-            model_instance.validate_credentials(model="meta-llama/llama-3-8b-instruct", credentials=credentials)
+            model_instance.validate_credentials(model="meta-llama/llama-3.1-8b-instruct", credentials=credentials)
         except CredentialsValidateFailedError as ex:
             raise ex
         except Exception as ex:
