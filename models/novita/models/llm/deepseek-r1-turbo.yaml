@@ -1,13 +1,13 @@
-model: meta-llama/llama-3.1-70b-instruct
+model: deepseek/deepseek-r1-turbo
 label:
-  zh_Hans: Llama 3.1 70B Instruct
-  en_US: Llama 3.1 70B Instruct
+  zh_Hans: DeepSeek R1 (Turbo)
+  en_US: DeepSeek R1 (Turbo)
 model_type: llm
 features:
   - agent-thought
 model_properties:
   mode: chat
-  context_size: 32768
+  context_size: 64000
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -35,7 +35,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.00119'
-  output: '0.0039'
+  input: '0.007'
+  output: '0.025'
   unit: '0.0001'
   currency: USD

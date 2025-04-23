@@ -1,13 +1,13 @@
-model: qwen/qwen-2-vl-72b-instruct
+model: google/gemma-3-27b-it
 label:
-  zh_Hans: Qwen 2 VL 72B Instruct
-  en_US: Qwen 2 VL 72B Instruct
+  zh_Hans: Gemma 3 27B
+  en_US: Gemma 3 27B
 model_type: llm
 features:
   - agent-thought
 model_properties:
   mode: chat
-  context_size: 32768
+  context_size: 32000
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -35,7 +35,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0045'
-  output: '0.0045'
+  input: '0.00119'
+  output: '0.002'
   unit: '0.0001'
   currency: USD

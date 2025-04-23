@@ -1,13 +1,13 @@
-model: openchat/openchat-7b
+model: deepseek/deepseek-v3-0324
 label:
-  zh_Hans: OpenChat 7B
-  en_US: OpenChat 7B
+  zh_Hans: DeepSeek V3 0324
+  en_US: DeepSeek V3 0324
 model_type: llm
 features:
   - agent-thought
 model_properties:
   mode: chat
-  context_size: 4096
+  context_size: 128000
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -35,7 +35,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0006'
-  output: '0.0006'
+  input: '0.0033'
+  output: '0.013'
   unit: '0.0001'
   currency: USD
