@@ -9,3 +9,7 @@ logs
 .idea
 .venv/
 .scripts/
+
+clean_env
+
+sync_models.py
