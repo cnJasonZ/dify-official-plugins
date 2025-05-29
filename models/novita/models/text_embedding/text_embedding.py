@@ -15,11 +15,6 @@ class NovitaTextEmbeddingModel(CommonNovita, TextEmbeddingModel):
     Model class for Novita AI text embedding model.
     """
 
-    def _update_endpoint_url(self, credentials: dict):
-        credentials["endpoint_url"] = "https://api.novita.ai/v3/openai"
-        credentials["extra_headers"] = {"X-Novita-Source": "dify.ai"}
-        return credentials
-
     def _invoke(
         self,
         model: str,

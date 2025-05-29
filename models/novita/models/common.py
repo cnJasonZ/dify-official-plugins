@@ -18,7 +18,7 @@ class CommonNovita:
         :return:
         """
         credentials_kwargs = {
-            "api_key": credentials["novita_api_key"],
+            "api_key": credentials["api_key"],
             "base_url": "https://api.novita.ai/v3/openai",
             "max_retries": 1,
         }
