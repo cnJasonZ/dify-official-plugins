@@ -1,7 +1,7 @@
 model: deepseek/deepseek-r1-0528
 label:
-  zh_Hans: deepseek/deepseek-r1-0528
-  en_US: deepseek/deepseek-r1-0528
+  zh_Hans: DeepSeek R1 0528
+  en_US: DeepSeek R1 0528
 model_type: llm
 features:
   - agent-thought
