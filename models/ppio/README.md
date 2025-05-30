@@ -22,3 +22,6 @@ PPIO delivers cutting-edge AI large model inference services, empowering users t
 - **Cost-Effective AI Solutions**: Enjoy unmatched affordability with flexible pricing models designed for scalability and efficiency.
 
 ![](_assets/ppio-04.png)
+
+
+Source code of this plugin: [https://github.com/cnJasonZ/dify-official-plugins/tree/feat/ppio/models/ppio](https://github.com/cnJasonZ/dify-official-plugins/tree/feat/ppio/models/ppio)
